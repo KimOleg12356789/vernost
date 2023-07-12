@@ -1,0 +1,526 @@
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+	
+}
+
+@media screen and (max-width: 1250px){
+	
+}
+
+
+/* стили для md-устройств */
+@media screen and (max-width: 1200px) {
+	.title {
+		font-size: 38px;
+	}
+
+	.title_profile p {
+		font-size: 20px;
+	}
+
+	.title_profile {
+	    max-width: 560px;
+	    margin: 20px auto 0 auto;
+	}
+
+	.profile_form {
+	    padding: 30px 0 0 0;
+	}
+
+	.profile_block {
+	    padding: 20px 0 0 0;
+	}
+
+	.profile_title {
+		font-size: 16px;
+	}
+
+	.profile_container {
+		max-width: 620px;
+	}
+
+	.profile_pd {
+	    padding: 80px 0 0 0;
+	}
+
+	.title_cabinet {
+	    color: #37918c;
+	    font-size: 32px;
+	    line-height: 1.23;
+	    font-family: 'Oswald-Medium';
+	}
+
+	.cabinet_title {
+	    font-size: 18px;
+	    line-height: 1.55;
+	    color: #1e5050;
+	}
+
+	.cabinet_block2 {
+	    width: 45%;
+	    padding: 0 0 0 20px;
+	}
+
+	.cabinet_block {
+	    width: 55%;
+	    padding: 0 0 0 0;
+	}
+
+	.cabinet_container {
+	    max-width: 980px;
+	}
+
+	.accordion .link {
+	    cursor: pointer;
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    padding: 12px 20px;
+	    font-family: 'Oswald-Medium';
+	    font-size: 20px;
+	    line-height: 1.35;
+	    color: #1e5050;
+	    position: relative;
+	    -webkit-transition: all 0.4s ease;
+	    -o-transition: all 0.4s ease;
+	    transition: all 0.4s ease;
+	}
+
+	.application_container {
+		max-width: 820px;
+	}
+
+	.application_bg_title {
+	    font-size: 16px;
+	    line-height: 1.55;
+	    color: #fff;
+	}
+
+	.application_title {
+	    padding: 30px 0 0 0;
+	    line-height: 1.55;
+	    font-size: 16px;
+	    color: #1e5050;
+	}
+
+	.application_title li {
+	    list-style: disc;
+	    line-height: 1.55;
+	    font-size: 16px;
+	    color: #1e5050;
+	}
+
+	.application_form {
+	    max-width: 620px;
+	    padding: 10px 0 0 0;
+	}
+
+	.application_form_wh {
+		max-width: 100%;
+	}
+
+	.application_ul_mr {
+	    margin: 0 -20px 0 -20px;
+	}
+}	
+
+
+@media screen and (max-width: 1050px) {
+	
+  
+}
+
+
+/* стили для sm-устройств */
+@media screen and (max-width: 1024px) {
+	
+  
+}
+
+/* стили для sm-устройств */
+@media screen and (max-width: 992px) {
+	
+}
+
+
+@media screen and (max-width: 950px) {
+		.cabinet_container {
+			max-width: 640px;
+		}
+
+		.cabinet_wrap {
+			flex-wrap: wrap;
+		}
+
+		.cabinet_block {
+			width: 100%;
+		}
+
+		.cabinet_block2 {
+			display: flex;
+			justify-content: center;
+			width: 100%;
+			padding: 20px 0 0 0;
+		}
+
+
+}
+
+
+/* Ipad*/ 
+@media screen and (max-width: 768px) {
+	
+}
+
+
+/* Ipad mini*/ 
+@media screen and (max-width: 640px) {
+	.header_logo a img {
+	    width: 50px;
+	}
+
+	.header_logo_title {
+		font-size: 18px;
+	}
+
+	.header_logo_suptitle {
+	    font-size: 10px;
+	    line-height: 10px;
+	    color: #F0FAFA;
+	}
+
+	.header_logo_text {
+	    padding: 0 0 0 10px;
+	}
+
+	.burger i:nth-of-type(1) svg {
+		width: 36px;
+	} 
+
+	.burger.burger-open i:nth-of-type(2) svg {
+		width: 36px;
+	}
+
+	.burger_end {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.burger_mr {
+		overflow: auto;
+	}
+
+	.mt-mobile {
+		overflow: auto;
+	}
+
+	.title {
+	    font-size: 30px;
+	}
+
+	.title_profile p {
+	    font-size: 18px;
+	}
+
+	.profile_title {
+	    font-size: 14px;
+	    line-height: 1.45;
+	}
+
+	.profile_form {
+	    padding: 20px 0 0 0;
+	}
+
+	.profile_pd {
+	    padding: 60px 0 0 0;
+	}
+
+	.footer {
+	    margin: 60px 0 0 0;
+	    padding: 40px 0 20px 0;
+	    background: #1e5050;
+	}
+
+	.footer_logo_title {
+	    text-transform: uppercase;
+	    font-family: 'Steppe-SemiBold';
+	    font-size: 20px;
+	    color: #F0FAFA;
+	}
+
+	.footer_logo_suptitle {
+	    font-size: 14px;
+	    line-height: 14px;
+	    color: #F0FAFA;
+	}
+
+	.footer_logo a img {
+	    width: 50px;
+	}
+
+	.footer_logo_text {
+	    padding: 0 0 0 10px;
+	}
+
+	.footer_logo_title {
+	    text-transform: uppercase;
+	    font-family: 'Steppe-SemiBold';
+	    font-size: 18px;
+	    color: #F0FAFA;
+	}
+
+	.footer_logo_suptitle {
+	    font-size: 10px;
+	    line-height: 10px;
+	    color: #F0FAFA;
+	}
+
+	.footer_fond img {
+		width: 200px;
+	}
+
+	.footer_bottom_title {
+	    font-family: 'Steppe-Medium';
+	    font-size: 16px;
+	    line-height: normal;
+	    color: #AAFAEB;
+	}
+
+	.footer_bottom_number {
+	    font-family: 'Oswald-Medium';
+	    font-size: 28px;
+	    line-height: 70px;
+	    letter-spacing: -0.36px;
+	    text-transform: uppercase;
+	    color: #F0FAFA;
+	}
+
+	.footer_bottom {
+	    padding: 10px 0 0 0;
+	    border-top: 1px solid #AAFAEB;
+	}
+
+	.footer_wrap {
+	    padding: 0 0 30px 0;
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	}
+
+	.footer_bottom_mr {
+		margin: 0 0 0 -125px;
+	}
+
+	.profile__button button {
+		width: 100%;
+	}
+
+	.title_cabinet {
+	    color: #37918c;
+	    font-size: 28px;
+	    line-height: 1.23;
+	    font-family: 'Oswald-Medium';
+	}
+
+	.cabinet_pd {
+	    padding: 40px 0 0 0;
+	}
+
+	.cabinet_wrap {
+	    display: flex;
+	    padding: 15px 0 0 0;
+	}
+
+	.cabinet_title {
+	    font-size: 16px;
+	    line-height: 1.55;
+	    color: #1e5050;
+	}
+
+	.cabinet_block2 {
+	    display: flex;
+	    justify-content: center;
+	    width: 100%;
+	    padding: 15px 0 0 0;
+	}
+
+	.cabinet_link a {
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    padding: 0px 30px;
+	    height: 60px;
+	    border-radius: 30px;
+	    color: #ffffff;
+	    border: 3px solid #ffffff;
+	    background: #1e5050;
+	    font-size: 16px;
+	    font-family: 'Steppe-Bold';
+	    width: fit-content;
+	}
+
+	.accordion .link {
+	    cursor: pointer;
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    padding: 12px 20px;
+	    font-family: 'Oswald-Medium';
+	    font-size: 18px;
+	    line-height: 1.35;
+	    color: #1e5050;
+	    position: relative;
+	    -webkit-transition: all 0.4s ease;
+	    -o-transition: all 0.4s ease;
+	    transition: all 0.4s ease;
+	}
+
+	.accordion .link p {
+	    padding: 0 10px 0 0;
+	    width: 100%;
+	}
+
+	.cabinet_ul {
+		padding: 20px 0 0 0;
+		display: block;
+	}
+
+	.cabinet_li {
+		max-width: 370px;
+		padding: 0;
+		margin: 20px auto 0 auto;
+	}
+
+	.cabinet_li a {
+		width: 100%;
+	}
+
+	.application_bg_title {
+	    font-size: 14px;
+	    line-height: 1.55;
+	    color: #fff;
+	}
+
+	.application_title {
+	    padding: 30px 0 0 0;
+	    line-height: 1.55;
+	    font-size: 14px;
+	    color: #1e5050;
+	}
+
+	.application_title li {
+	    list-style: disc;
+	    line-height: 1.55;
+	    font-size: 14px;
+	    color: #1e5050;
+	}
+
+	.application_li a {
+		width: 100%;
+		text-align: center;
+	}
+
+	.application_li {
+		width: 100%;
+	}
+
+	.application_pd2 {
+	    padding: 40px 0 0 0;
+	}
+
+	.application_border {
+	    margin: 60px auto 0 auto;
+	    width: 50px;
+	    height: 50px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    background: #1e5050;
+	    border-radius: 50%;
+	    font-size: 22px;
+	    color: #fff;
+	    font-family: 'Oswald-Regular';
+	}
+
+	.application_pd3 {
+	    padding: 30px 0 0 0;
+	}
+
+	.application_ul_mr {
+		margin: 0 -10px 0 -10px;
+	}
+}
+
+@media screen and (max-width: 575px) {
+  	
+}
+
+/* Galaxy S8+*/ 
+@media screen and (max-width: 480px) {
+  	.mt-mobile {
+  		padding: 75px 0 20px 0;
+  	}
+
+  	.burger_end {
+  		justify-content: center;
+  	}
+
+  	.burger_link {
+  		margin: 30px 0 0 0;
+  		justify-content: center;
+  	}
+
+  	.footer_wrap {
+  		flex-wrap: wrap;
+  	}
+
+  	.footer_logo {
+  		width: 100%;
+  		display: flex;
+  		justify-content: center;
+  	}
+
+  	.footer_fond {
+  		width: 100%;
+  		text-align: center;
+  		padding: 20px 0 0 0;
+  	}
+
+  	.footer_bottom_wrap {
+  		flex-wrap: wrap;
+  	}
+
+  	.footer_bottom_title {
+  		width: 100%;
+  		text-align: center;
+  	}
+
+  	.footer_bottom_mr {
+  		margin: 10px 0 0 0;
+  	}
+
+  	.footer_bottom_number {
+  		width: 100%;
+  		text-align: center;
+  	}
+}
+
+/* Galaxy*/ 
+@media screen and (max-width: 415px) {
+  	
+}
+
+
+/* Iphone 6.7.8 */ 
+@media screen and (max-width: 375px) {
+	
+}
+
+/* Iphone 5.5SE */ 
+@media screen and (max-width: 320px) {
+	
+}
